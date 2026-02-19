@@ -22,9 +22,7 @@ export default function Home() {
 
   return (
   <div>
-    <div className="search-div">
-      <Search search={search} setSearch={setSearch}/> 
-    </div>
+    
       
     <div className="products">
       {filteredProducts.map((product) =>
